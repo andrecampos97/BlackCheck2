@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fundo_app"
+    android:orientation="vertical"
+    tools:context=".activity.activity.MainActivity">
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/Amarelo_app"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/bordas_edittext"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/campoSenha"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bordas_edittext"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtEsqueciSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/Amarelo_app"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/botaoAcessar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bt_entrar"
+            android:text="Entrar"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtNaoPossui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não possui conta ?"
+            android:textColor="@color/Amarelo_app"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:onClick="btRegistrar"
+            android:text="REGISTRAR-SE"
+            android:textColor="@color/Amarelo_app"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

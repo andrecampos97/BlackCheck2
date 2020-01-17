@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fundo_app"
+    android:orientation="vertical"
+    tools:context=".activity.RegistroActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Fundo_app"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="REGISTRAR-SE"
+            android:textColor="@color/Amarelo_app"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/campoNome"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Nome completo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/campoCPF"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/campoEmail"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Email "
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/campoSenha"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Senha "
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/campoConfirmarSenha"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Confirmar senha "
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/campoTelefone"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Telefone "
+            android:inputType="phone" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Concordo com os termos de serviço"
+            android:textColor="@color/Amarelo_app" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Concordo com as políticas de privacidade"
+            android:textColor="@color/Amarelo_app" />
+
+        <Button
+            android:id="@+id/botaoCadastro"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bt_entrar"
+            android:text="CADASTRAR" />
+    </LinearLayout>
+
+</ScrollView>
+

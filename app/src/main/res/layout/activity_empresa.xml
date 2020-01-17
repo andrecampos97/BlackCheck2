@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Fundo_app"
+        android:orientation="vertical"
+        tools:context=".activity.EmpresaActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/perfil" />
+
+        <TextView
+            android:id="@+id/txtNomeEstabelecimento"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Nome Estabelecimento:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/campoNome"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/txtRua"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Rua:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/campoRua"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Rua"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Telefone:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/campoTelefone"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/txtCidade"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Cidade:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Cidade"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/txtCep"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="CEP:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="CEP"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/txtValidadeInicio"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Validade Início:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Validade Inicio"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:textColor="@color/Amarelo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Validade Final:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Validade Final"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bt_entrar"
+            android:text="Cadastrar" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

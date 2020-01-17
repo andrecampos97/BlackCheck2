@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "281922820681",
+    "firebase_url": "https://blackcheck-dab63.firebaseio.com",
+    "project_id": "blackcheck-dab63",
+    "storage_bucket": "blackcheck-dab63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281922820681:android:5df0cbd8662f125f53fd98",
+        "android_client_info": {
+          "package_name": "blackcheck.com.br"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281922820681-im2g8bepb6rjgj418c6gtpqm5ifq2iu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blackcheck.com.br",
+            "certificate_hash": "aad3017f6abb8c0d072dd13d23a4e0c6b3fd7e4d"
+          }
+        },
+        {
+          "client_id": "281922820681-ppc6kfuqjc9vb23de0k8h7s7ag4ipm8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUYO8CeVQPTAkh5P_rpVsTEXyky3yTB-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281922820681-ppc6kfuqjc9vb23de0k8h7s7ag4ipm8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
