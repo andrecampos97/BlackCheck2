@@ -15,7 +15,7 @@
         tools:context=".activity.EmpresaActivity">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
+            android:id="@+id/imagemCupom"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="40dp"
@@ -99,7 +99,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/campoCidade"
             android:layout_width="325dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
@@ -121,7 +121,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/campoCep"
             android:layout_width="325dp"
             android:layout_height="50dp"
             android:paddingLeft="15dp"
@@ -143,7 +143,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/campoValidadeInicio"
             android:layout_width="325dp"
             android:layout_height="50dp"
             android:paddingLeft="15dp"
@@ -155,7 +155,7 @@
             android:inputType="date" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/txtValidadeFinal"
             android:layout_width="325dp"
             android:layout_height="20dp"
             android:textColor="@color/Amarelo_app"
@@ -165,7 +165,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/campoValidadeFinal"
             android:layout_width="325dp"
             android:layout_height="50dp"
             android:paddingLeft="15dp"
@@ -176,8 +176,30 @@
             android:hint="Validade Final"
             android:inputType="date" />
 
+        <TextView
+            android:id="@+id/txtRedeSocial"
+            android:layout_width="325dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Rede Social:"
+            android:textColor="@color/Amarelo_app"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/campoRedeSocial"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordas_edittext"
+            android:ems="10"
+            android:hint="Rede Social"
+            android:inputType="date"
+            android:paddingLeft="15dp" />
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/botaoCadastrar"
             android:layout_width="325dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
